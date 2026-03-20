@@ -17,6 +17,10 @@ public class BudgeterContext {
 	
 	private void init(String[] args) throws Exception {
 		//initialize variables for budgeter (including BudgeterJob class)
+		//initialize variables for budgeter (including BudgeterJob class)
+		//also use this to do a spark.sql on a budget database table in DB
+		//write to a Dataset<Row> and filter accordingly. Then use
+		//df.write to write to a Databricks volume.
 	}
 	
 	/**
